@@ -1,0 +1,30 @@
+.message {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.avatar {
+    border-radius: 100px;
+    border: 3px solid green;
+    box-shadow: 0 0 7px #666;
+    width: 30px;
+    height: 30px;
+}
+
+.messageBlock{
+    background: #666666;
+    color: aliceblue;
+    width: 150px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.timeText{
+    display: flex;
+    flex-direction: row;
+justify-content: space-between;
+}
+.name{
+    color: #c6aae0;
+    font-weight: 500;
+}
